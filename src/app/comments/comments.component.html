@@ -1,0 +1,16 @@
+<div *ngFor="let comment of commentsList" >
+  <!-- iterating through comments list  -->
+  <ul>
+   <li>
+     {{comment.text}}
+    <!-- show or hide replies button  -->
+     <a  data-toggle="collapse" *ngIf="comment.comments" href="#demo_{{comment.text}}">show replies</a>
+     <!-- {{comment | json}} -->
+     <div  id="demo_{{comment.text}}" class="collapse">
+       <!-- calling comments if comments has sub comments  -->
+      <comments-list [comments]="comment.comments" *ngIf="comment.comments"></comments-list>
+
+     </div>
+   </li>
+  </ul>
+</div>

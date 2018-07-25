@@ -1,47 +1,27 @@
-nested comments used to show nested comments using component recursion
+# Nested
 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
+## Development server
 
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-required scripts
+## Code scaffolding
 
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+## Build
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
+## Running unit tests
 
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-  nested componet is comments component which is  called in the 
-  app component  (ie : comment-list )
+## Running end-to-end tests
 
-  comment-list has a  input ("comments")
- 
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
- if  comments has subcoments (again  a comment property it shows show replie button)
+## Further help
 
- on clicking show replies  sub coments  are shown 
-
-
-recursion  components 
-
- comments-list componets  is called again if  the input comment has 
- subcoments with  by passing this subcoments as comment input 
-
-comments.ts 
- is used as input 
-
-
-
-accordian in implemented
-
-accordian in implemented using the above specified scripts
-
-refferece 
-https://netbasal.com/recursion-in-angular-components-1cd636269b12
-
-
-
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
