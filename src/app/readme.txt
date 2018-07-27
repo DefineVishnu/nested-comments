@@ -8,23 +8,36 @@ required scripts
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+app-componnent 
+
+ root comments are  got in  app commponent 
+ (ie commens with parent 0)
 
 
-  nested componet is comments component which is  called in the 
-  app component  (ie : comment-list )
+ root comments are iterated in  app component
+ and each comment is passed as input to comment-list component 
 
-  comment-list has a  input ("comments")
+
+
+comment-list-component
+
+  comment-list has a  input ("comment")
  
 
- if  comments has subcoments (again  a comment property it shows show replie button)
+ 
 
- on clicking show replies  sub coments  are shown 
+ on clicking show replies  sub coments got and displayed as subcomments 
+
+
+each  subcomments are passed as input to comment-list component  again 
+
+
+
 
 
 recursion  components 
 
- comments-list componets  is called again if  the input comment has 
- subcoments with  by passing this subcoments as comment input 
+ comments-list componets  is called again 
 
 comments.ts 
  is used as input 

@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { CommentsComponent } from './comments/comments.component';
+import { CommentsService } from './comment/comments.service';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,7 @@ import { CommentsComponent } from './comments/comments.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [CommentsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

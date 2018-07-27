@@ -1,4 +1,8 @@
-coments :
+Post  :
 
-<!-- calling comments list  for first time -->
-<comments-list [comments]="postComments"></comments-list>
+
+comments List
+
+<!-- iterating post  comments  -->
+
+<comments-list  *ngFor="let c of postComments"  [comment]="c" > </comments-list>
