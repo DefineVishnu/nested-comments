@@ -5,7 +5,7 @@ export class CommentModel {
    subComments?: CommentModel[]
 }
 
-
+// database result model can be used as follows for maximum efficiency
 
 export const comments: CommentModel[] = [
 
