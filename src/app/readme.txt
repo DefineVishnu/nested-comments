@@ -44,12 +44,25 @@ comments.ts
 
 
 
-accordian in implemented
+accordian is implemented
 
-accordian in implemented using the above specified scripts
+accordian is implemented using the above specified scripts
+
+CommentModel 
+id property id of comment 
+parent id of parent comment 
+text is for  text property
+subComments => sub comments 
+
+
+
+
 
 refferece 
 https://netbasal.com/recursion-in-angular-components-1cd636269b12
+
+
+
 
 
 
